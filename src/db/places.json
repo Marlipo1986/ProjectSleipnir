@@ -1,0 +1,69 @@
+[
+    {
+      "name": "Asgard",
+      "type": "Realm",
+      "description": "The realm of the Aesir gods, including Odin and Thor.",
+      "image": "https://example.com/images/asgard.jpg"
+    },
+    {
+      "name": "Midgard",
+      "type": "Realm",
+      "description": "The realm of humans, located within the world tree Yggdrasil.",
+      "image": "https://example.com/images/midgard.jpg"
+    },
+    {
+      "name": "Jotunheim",
+      "type": "Realm",
+      "description": "The realm of the giants (Jotnar), enemies of the gods.",
+      "image": "https://example.com/images/jotunheim.jpg"
+    },
+    {
+      "name": "Vanaheim",
+      "type": "Realm",
+      "description": "The realm of the Vanir gods, associated with fertility and nature.",
+      "image": "https://example.com/images/vanaheim.jpg"
+    },
+    {
+      "name": "Alfheim",
+      "type": "Realm",
+      "description": "The realm of the light elves, known for their beauty and light magic.",
+      "image": "https://example.com/images/alfheim.jpg"
+    },
+    {
+      "name": "Svartalfheim",
+      "type": "Realm",
+      "description": "The realm of the dark elves (Dwarves), skilled craftsmen and miners.",
+      "image": "https://example.com/images/svartalfheim.jpg"
+    },
+    {
+      "name": "Niflheim",
+      "type": "Realm",
+      "description": "The icy realm of the dead, ruled by the goddess Hel.",
+      "image": "https://example.com/images/niflheim.jpg"
+    },
+    {
+      "name": "Muspelheim",
+      "type": "Realm",
+      "description": "The realm of fire, home to fire giants and ruled by the fire giant Surtr.",
+      "image": "https://example.com/images/muspelheim.jpg"
+    },
+    {
+      "name": "Helheim",
+      "type": "Realm",
+      "description": "The realm of the dishonorable dead, ruled by the goddess Hel.",
+      "image": "https://example.com/images/helheim.jpg"
+    },
+    {
+      "name": "Valhalla",
+      "type": "Realm",
+      "description": "A majestic hall in Asgard where fallen warriors are taken after death.",
+      "image": "https://example.com/images/valhalla.jpg"
+    },
+    {
+      "name": "Yggdrasil",
+      "type": "World Tree",
+      "description": "The immense ash tree that connects the nine realms and sustains the cosmos.",
+      "image": "https://example.com/images/yggdrasil.jpg"
+    }
+  ]
+  

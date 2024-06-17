@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "name": "Odin",
+    "type": "God",
+    "family": "Aesir",
+    "description": "The chief god of Norse mythology, associated with wisdom, war, and magic.",
+    "image": "https://example.com/images/thor.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Thor",
+    "type": "God",
+    "family": "Aesir",
+    "description": "The god of thunder, lightning, storms, oak trees, strength, and protection of mankind.",
+    "image": "https://example.com/images/thor.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Frigg",
+    "type": "Goddess",
+    "family": "Aesir",
+    "description": "The queen of Asgard and wife of Odin, associated with love, marriage, and destiny.",
+    "image": "https://example.com/images/frigg.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Baldur",
+    "type": "God",
+    "family": "Aesir",
+    "description": "The god of beauty, light, and purity, beloved by all except Loki.",
+    "image": "https://example.com/images/baldur.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Heimdall",
+    "type": "God",
+    "family": "Aesir",
+    "description": "The watchman of the gods, with keen senses and the horn Gjallarhorn.",
+    "image": "https://example.com/images/heimdall.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Tyr",
+    "type": "God",
+    "family": "Aesir",
+    "description": "The god of war, bravery, and justice, known for sacrificing his hand to bind Fenrir.",
+    "image": "https://example.com/images/tyr.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Freyr",
+    "type": "God",
+    "family": "Aesir",
+    "description": "The god of fertility, prosperity, and sunshine, associated with peace and good harvests.",
+    "image": "https://example.com/images/freyr.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Idunn",
+    "type": "Goddess",
+    "family": "Aesir",
+    "description": "The goddess of youth and keeper of the golden apples that grant immortality.",
+    "image": "https://example.com/images/idunn.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Bragi",
+    "type": "God",
+    "family": "Aesir",
+    "description": "The god of poetry and eloquence, known for his silver tongue and inspiration.",
+    "image": "https://example.com/images/bragi.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Vidar",
+    "type": "God",
+    "family": "Aesir",
+    "description": "The silent god of vengeance, destined to survive Ragnarök and avenge his father Odin.",
+    "image": "https://example.com/images/vidar.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Njord",
+    "type": "God",
+    "family": "Vanir",
+    "description": "The god of the sea, wind, and wealth, father of Freyr and Freyja.",
+    "image": "https://example.com/images/njord.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Freyja",
+    "type": "Goddess",
+    "family": "Vanir",
+    "description": "The goddess of love, beauty, fertility, and war, sister of Freyr.",
+    "image": "https://example.com/images/freyja.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Freyr",
+    "type": "God",
+    "family": "Vanir",
+    "description": "The god of fertility, prosperity, and sunshine, associated with peace and good harvests.",
+    "image": "https://example.com/images/freyr_vanir.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Ymir",
+    "type": "Giant",
+    "family": "Giant",
+    "description": "The first giant in Norse mythology, created from the primordial frost.",
+    "image": "https://example.com/images/ymir.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Surtr",
+    "type": "Giant",
+    "family": "Giant",
+    "description": "The fire giant who will set the world ablaze during Ragnarök.",
+    "image": "https://example.com/images/surtr.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Skadi",
+    "type": "Giantess",
+    "family": "Giant",
+    "description": "A giantess associated with skiing, winter, and hunting, daughter of Thjazi.",
+    "image": "https://example.com/images/skadi.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Thrym",
+    "type": "Giant",
+    "family": "Giant",
+    "description": "The giant who stole Thor's hammer Mjölnir and demanded Freyja as his bride.",
+    "image": "https://example.com/images/thrym.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Utgard-Loki",
+    "type": "Giant",
+    "family": "Giant",
+    "description": "The king of the giants of Utgard, known for his deceptive challenges to Thor and Loki.",
+    "image": "https://example.com/images/utgard-loki.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Jormungandr",
+    "type": "Creature",
+    "family": "Creature/Monster",
+    "description": "The Midgard Serpent, a giant sea serpent that encircles the earth.",
+    "image": "https://example.com/images/jormungandr.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Fenrir",
+    "type": "Monster",
+    "family": "Creature/Monster",
+    "description": "A monstrous wolf, son of Loki, destined to kill Odin during Ragnarök.",
+    "image": "https://example.com/images/fenrir.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Hel",
+    "type": "Goddess",
+    "family": "Creature/Monster",
+    "description": "The ruler of Helheim, the realm of the dead, daughter of Loki and Angrboda.",
+    "image": "https://example.com/images/hel.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Nidhogg",
+    "type": "Creature",
+    "family": "Creature/Monster",
+    "description": "The dragon who gnaws at the roots of Yggdrasil, symbolizing chaos and destruction.",
+    "image": "https://example.com/images/nidhogg.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Fafnir",
+    "type": "Monster",
+    "family": "Creature/Monster",
+    "description": "A dwarf turned dragon after guarding a cursed treasure hoard, slain by Sigurd.",
+    "image": "https://example.com/images/fafnir.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Gullinbursti",
+    "type": "Creature",
+    "family": "Creature/Monster",
+    "description": "The golden boar created by the dwarves for Freyr, capable of shining light.",
+    "image": "https://example.com/images/gullinbursti.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Sleipnir",
+    "type": "Creature",
+    "family": "Creature/Monster",
+    "description": "Odin's eight-legged horse, born from Loki's transformation into a mare.",
+    "image": "https://example.com/images/sleipnir.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Fenris Wolf",
+    "type": "Monster",
+    "family": "Creature/Monster",
+    "description": "The giant wolf bound by the gods until Ragnarok, when it will break free.",
+    "image": "https://example.com/images/fenris-wolf.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Huginn and Muninn",
+    "type": "Creatures",
+    "family": "Creature/Monster",
+    "description": "Odin's ravens of thought and memory, who fly over the world and bring him information.",
+    "image": "https://example.com/images/huginn-muninn.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Geri and Freki",
+    "type": "Creatures",
+    "family": "Creature/Monster",
+    "description": "Odin's wolves who accompany him and symbolize his warlike aspects.",
+    "image": "https://example.com/images/geri-freki.jpg"
+  }
+]

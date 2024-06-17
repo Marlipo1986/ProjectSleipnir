@@ -1,7 +1,33 @@
+import React, { useState } from "react";
 import { StatusBar } from "expo-status-bar";
-import { Text, View, StyleSheet, ScrollView, Image } from "react-native";
+import {
+  Button,
+  FlatList,
+  TextInput,
+  TouchableOpacity,
+  Text,
+  View,
+  StyleSheet,
+  ScrollView,
+  Image,
+  Pressable,
+  Alert,
+} from "react-native";
+import { useFonts } from "expo-font";
 
 export default function App() {
+  const [fontsLoaded, fontError] = useFonts({
+    SkranjiR: require("./assets/fonts/Skranji/Skranji-Regular.ttf"),
+    SkranjiB: require("./assets/fonts/Skranji/Skranji-Bold.ttf"),
+  });
+
+  const [contador, setContador] = useState(0);
+
+  const aumentarContador = () => {
+    const nuevoValor = contador + 1;
+    setContador(nuevoValor);
+  };
+
   return (
     <ScrollView>
       <View style={styles.container}>
@@ -13,17 +39,31 @@ export default function App() {
           style={styles.banner}
         />
       </View>
+      <View>
+        <Text> CREAMOS UN CONTADOR!</Text>
+        <Text>{contador}</Text>
+        <TouchableOpacity
+          style={{ backgroundColor: "blue" }}
+          onPress={aumentarContador}
+        >
+          <Text style={{ color: "white" }}>AUMENTAR EN 1...</Text>
+        </TouchableOpacity>
+      </View>
       <View style={styles.container}>
         <Text style={styles.titulo}>REALMS</Text>
       </View>
       <ScrollView horizontal>
-        <View>
+        <TouchableOpacity
+          onPress={() => {
+            alert("Yendo...");
+          }}
+        >
           <Image
             source={require("./assets/Helheim.jpeg")}
             style={styles.films}
           />
           <Text style={styles.textoSubtitulo}>HELHEIM - Underground</Text>
-        </View>
+        </TouchableOpacity>
         <View>
           <Image
             source={require("./assets/Niflheim.jpeg")}
@@ -154,55 +194,51 @@ export default function App() {
         </View>
       </ScrollView>
 
-
-
-
       <Text style={styles.titulo}> VANIR GODS</Text>
 
-<ScrollView horizontal>
-  <View style={styles.listado}>
-    <View style={styles.listadoItem}>
-      <Image
-        source={require("./assets/frey.webp")}
-        style={styles.character}
-      />
-      <Text style={styles.textoSubtitulo}>FREY</Text>
-    </View>
+      <ScrollView horizontal>
+        <View style={styles.listado}>
+          <View style={styles.listadoItem}>
+            <Image
+              source={require("./assets/frey.webp")}
+              style={styles.character}
+            />
+            <Text style={styles.textoSubtitulo}>FREY</Text>
+          </View>
 
-    <View style={styles.listadoItem}>
-      <Image
-        source={require("./assets/freya.jpeg")}
-        style={styles.character}
-      />
-      <Text style={styles.textoSubtitulo}>FREYA</Text>
-    </View>
+          <View style={styles.listadoItem}>
+            <Image
+              source={require("./assets/freya.jpeg")}
+              style={styles.character}
+            />
+            <Text style={styles.textoSubtitulo}>FREYA</Text>
+          </View>
 
-    <View style={styles.listadoItem}>
-      <Image
-        source={require("./assets/Njord.webp")}
-        style={styles.character}
-      />
-      <Text style={styles.textoSubtitulo}>NJORD</Text>
-    </View>
+          <View style={styles.listadoItem}>
+            <Image
+              source={require("./assets/Njord.webp")}
+              style={styles.character}
+            />
+            <Text style={styles.textoSubtitulo}>NJORD</Text>
+          </View>
 
-    <View style={styles.listadoItem}>
-      <Image
-        source={require("./assets/nerthus.jpeg")}
-        style={styles.character}
-      />
-      <Text style={styles.textoSubtitulo}>NERTHUS</Text>
-    </View>
+          <View style={styles.listadoItem}>
+            <Image
+              source={require("./assets/nerthus.jpeg")}
+              style={styles.character}
+            />
+            <Text style={styles.textoSubtitulo}>NERTHUS</Text>
+          </View>
 
-    <View style={styles.listadoItem}>
-      <Image
-        source={require("./assets/gullveig.jpeg")}
-        style={styles.character}
-      />
-      <Text style={styles.textoSubtitulo}>GULLVEIG</Text>
-    </View>
-  </View>
-</ScrollView>
-
+          <View style={styles.listadoItem}>
+            <Image
+              source={require("./assets/gullveig.jpeg")}
+              style={styles.character}
+            />
+            <Text style={styles.textoSubtitulo}>GULLVEIG</Text>
+          </View>
+        </View>
+      </ScrollView>
 
       <Text style={styles.titulo}>MONSTERS AND OTHER BEASTS</Text>
       <View style={styles.listado}>
@@ -256,11 +292,9 @@ export default function App() {
             source={require("./assets/sleipnir.jpeg")}
             style={styles.character}
           />
-          <Text style={styles.textoSubtitulo}>GARM</Text>
+          <Text style={styles.textoSubtitulo}>SLEIPNIR</Text>
         </View>
       </View>
-
-      
     </ScrollView>
   );
 }
@@ -279,14 +313,15 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
   tituloprincipal: {
-    fontWeight: "bold",
+    fontFamily: "SkranjiB",
+
     fontSize: 24,
     marginRight: 12,
     textAlign: "center",
     marginTop: 50,
   },
   titulo: {
-    fontWeight: "bold",
+    fontFamily: "SkranjiR",
     fontSize: 24,
     marginRight: 12,
     textAlign: "center",
